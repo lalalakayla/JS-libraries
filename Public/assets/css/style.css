@@ -1,0 +1,75 @@
+h1 {
+    font-family: Gluten, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: Gluten, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+h3 {
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+.s1 {
+    background-image: url("/assets/images/hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    h1 {
+        font-size: 7rem;
+        margin: 24px 0 0;
+        text-shadow: 0px 5px 50px rgba(0,0,0,0.5);
+    }
+    h2 {
+        text-shadow: 0px 5px 50px rgba(0,0,0,0.5);
+    }
+}
+.s2 {
+    background-color: darkolivegreen;
+}
+.s3 {
+    background-color: firebrick;
+}
+
+/* Date Range Picker */
+.datepicker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0px 5px 50px rgba(0,0,0,0.5);
+}
+input[name="daterange"] {
+    text-align: center;
+    max-width: 360px;
+    font-family: 'Outfit';
+    font-size: larger;
+    width: 250px;
+    border-radius: 32px;
+    border: none;
+    padding: 10px;
+}
+.daterangepicker {
+    font-family: 'Outfit' !important;
+}
+.daterangepicker .drp-buttons .btn {
+    font-family: 'Outfit' !important;
+}
+/* Map */
+#map { 
+    height: 480px; 
+}
+/* Side Dots Color */
+span {
+    background-color: white !important;
+}

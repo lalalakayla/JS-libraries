@@ -1,0 +1,16 @@
+{
+  "name": "inm420",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "KaylaLo",
+  "private": true,
+  "license": "private",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
